@@ -1,0 +1,404 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="">
+		.header {
+			background: darkblue;
+			height: 70px;
+		}
+		.btn {
+			background: darkblue;
+			border: none;
+			color: white;
+            height: 60px;
+            width: 140px;  
+		}
+		.banner {
+            background-image: url(Subnautica.jpg);
+            background-size: 100% 100%;
+            height: 650px;
+            border-radius: 10px
+        }
+        .banner:hover {
+        	background-image: url(Subnautica.webp);
+            background-size: 100% 100%;
+            height: 650px;
+            transition: background 1s linear;
+            border-radius: 10px
+        }
+		.creatures {
+			margin-left: 730px;
+			height: 70px;
+			font-size: 80px;
+		}
+		.reaper {
+			background-image: url(reaper.jpg) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px
+		}
+		.reaper:hover {
+			background-image: url(reaper.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			transition: background 1s linear;
+			border-radius: 10px
+		}
+		.reaper-text {
+			background: gray;
+			width: 500px;
+			height: 110px;
+			margin-left: 100px;
+			color: red;
+		}
+        .predators {
+        	margin-left: 790px;
+			font-size: 50px;
+        }
+        .stalker {
+        	background-image: url(stalker.jpg) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px
+
+        }
+        .stalker:hover {
+        	background-image: url(stalker.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+            transition: background 1s linear;
+            border-radius: 10px
+        }
+        .stalker-text {
+        	background: green;
+			width: 500px;
+			height: 110px;
+			margin-left: 100px;
+			color: white;
+        }
+        .krabzmey {
+        	background-image: url(krabzmey.jpg) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px
+        }
+        .krabzmey:hover {
+        	background-image: url(krab.jpg) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px;
+			transition: background 1s linear;
+        }
+
+        .krabzmey-text {
+        	background: pink;
+			width: 500px;
+			height: 110px;
+			margin-left: 100px;
+			color: hotpink;
+
+        }
+        .Travoyadniye {
+        	margin-left: 760px;
+			font-size: 50px;
+        }
+        .gazopod {
+        	background-image: url(gazopod.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px
+        }
+        .gazopod:hover {
+        	background-image: url(az.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			transition: background 1s linear;
+			border-radius: 10px;
+        }
+        .gazopod-text {
+        	background: lightblue;
+			width: 500px;
+			height: 60px;
+			margin-left: 100px;
+			color: green;
+        }
+        .rifospin {
+        	background-image: url(rifospin.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px;
+        }
+        .rifospin:hover {
+        	background-image: url(rifospin.jpg) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			transition: background 1s linear;
+			border-radius: 10px
+        }
+        .rifospin-text {
+        	background: darkblue;
+			width: 500px;
+			height: 60px;
+			margin-left: 100px;
+			color: blue;
+        }
+        .piskun {
+        	background-image: url(piskun.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px;
+        }
+        .piskun:hover {
+        	background-image: url(piskun1.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			border-radius: 10px;
+			transition: background 1s linear;
+        }
+        .piskun-text {
+        	background: lightcyan;
+			width: 500px;
+			height: 60px;
+			margin-left: 100px;
+			color: blue;
+        }
+        .Aurora {
+        	background-image: url(Aurora.webp);
+            background-size: 100% 100%;
+            height: 650px;
+            margin-top: 100px;
+            border-radius: 10px;
+            width: 1700px;
+            margin-left: 75px;
+        }
+        .Aurora:hover {
+        	background-image: url(Explode.webp);
+            background-size: 100% 100%;
+            border-radius: 10px;
+            height: 650px;
+            margin-top: 100px;
+            width: 1700px;
+            margin-left: 75px;
+            transition: background 1s linear;
+        }
+        .header_Ar {
+        	margin-left: 670px;
+			height: 70px;
+			font-size: 80px;
+        }
+        .Aurora-text {
+        	background: darkorange;
+			width: 1700px;
+			height: 255px;
+			margin-left: 75px;
+			color: black;
+        }
+        .bioms {
+        	margin-left: 770px;
+			height: 70px;
+			font-size: 80px;
+        }
+        .otmeli {
+        	background-image: url(otmeli.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			margin-top: 10px;
+			border-radius: 10px;
+        }
+        .otmeli:hover {
+        	background-image: url(otmel.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			margin-top: 10px;
+			border-radius: 10px;
+			transition: background 1s linear;
+        }
+        .otmeli-text {
+        	background:cyan;
+			width: 500px;
+			height: 75px;
+			margin-left: 100px;
+			color: darkblue;
+        }
+        .vodorosli {
+        	background-image: url(vodorosli.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			margin-top: 10px;
+			border-radius: 10px;
+        }
+        .vodorosli:hover {
+        	background-image: url(vodr.jpg) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			margin-top: 10px;
+			transition: background 1s linear;
+			border-radius: 10px;
+        }
+        .vodorosli-text {
+        	background:lightgreen;
+			width: 500px;
+			height: 75px;
+			margin-left: 100px;
+			color:darkgreen;
+        }
+        .plato {
+        	background-image: url(plato.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			margin-top: 10px;
+			border-radius: 10px;
+        }
+        .plato:hover {
+        	background-image: url(plat.webp) ;
+			background-size: 100% 100% ;
+			width: 500px;
+			background: ;
+			height: 290px;
+			margin-left: 100px;
+			margin-top: 10px;
+			transition: background 1s linear;
+			border-radius: 10px;
+        }
+        .plato-text {
+        	background:darkblue;
+			width: 500px;
+			height: 75px;
+			margin-left: 100px;
+			color:red;
+        }
+	</style>
+</head>
+<body>
+
+    <div class="header">
+    	<button class="btn" style="margin-left: 700px;">
+    		Существа
+    	</button>
+    	<button class="btn" style="margin-left: 50px;">
+    		Корабль "Аврора"
+    	</button>
+    	<button class="btn" style="margin-left: 50px;">
+    		Биомы
+    	</button>
+    </div>
+    <div class="banner"></div>
+    <h1 class="creatures">Существа</h1>
+    <h1 class="predators">Хищники</h1>
+    <div style="display: flex;">
+    	<div>
+    		<div class="reaper"></div>
+    		<div class="reaper-text">Жнец это охотник который относится к классу "Левиафан" с размером в субмарину циклоп. Особо опасен ночью когда его ели видно в темноте. Урон игроку при укусе 80%, "Мотыльку" при захвате от 95-100%, "Костюму Краб" от 20-30% урона. Обитает в биомах "Песчаные дюны", "Зона крушения", "Горы". Умирает после 250 ударов ножом. Можно задобрить рыбой.</div>
+    	</div>
+        <div> 
+            <div class="stalker"></div>
+            <div class="stalker-text">Сталкер это первый крупный хищник которого ты увидишь. Наносит игроку 30% урона. Умирает после 15 ударов ножа, но можно отпугнуть 1 ударом ножа. Обитает в "Лесу водорослей", "Зона крушения", иногда заплывает в соседние биомы. Можно задобрить отдав рыбу. Любит таскать металлолом и из-за этого иногда теряет зубы которые понадобятся в крафте</div>
+         	
+       </div>
+       <div>
+       <div class="krabzmey"></div>
+       <div class="krabzmey-text">Крабозмей это хищник который видом похож на змею. Живет в медузных грибах. Урон игроку 40%, "Мотыльку" 15%, "Костюму КРАБ" 6%. Обитает только в Пещере медузных грибов.Вылазит из медузных грибов чтобы укусить игрока или его транспорт. Это особо крупное создание которое очень сильно на планете "4546B"</div>
+       </div>
+    </div>
+    <h1 class="Travoyadniye">Травоядные</h1>
+    <div style="display: flex;">
+    	<div>
+    		<div class="gazopod"></div>
+    		<div class="gazopod-text">Газобрюх это мирное существо которые выпускает свои газовые молекулы для защиты. Размножает с помощью "Яиц Газобрюха". Живет в одном биоме "Безопасные отмели" где приземляется капсула игрока.</div>
+    	</div>
+    	<div>
+    		<div class="rifospin"></div>
+    		<div class="rifospin-text">Рифоспин это мирное существо класса "левиафан". Он обитает в биомах "Травяное плато", "Грибной лес" иногда заплывает в другие биомы. Рифоспин кружится вокруг себя тем самым заплывая в другие биомы.</div>
+    	</div>
+    	<div>
+    		<div class="piskun"></div>
+    		<div class="piskun-text">Пискун это маленькая рыба которая обитает в биомах таких как "Безопасные отмели", "Лес водорослей" и в "Травяное плато". Используется в приготовлении еды можно употребить в сыром виде.</div>
+    	</div>
+    </div>
+    <div class="header_Ar">Корабль Аврора</div>
+    <div class="Aurora"></div>
+    <div class="Aurora-text">Aurora был совершенно новым Alterra Long-Range Capital Ship (и, возможно, первым в своем классе), отправленным в Ариаднский рукав корпорацией Alterra для строительства фазовых врат. Его вспомогательной миссией, неизвестной большинству экипажа, было соглашение, заключенное с Монгольскими Независимыми Государствами, о поиске и возможном спасении выживших членов экипажа Degasi . Считалось, что передовой сканирующий комплекс корабля, превосходящий любой корабль, который ранее предпринимал поисковые усилия, будет иметь больше шансов найти команду или, наконец, подтвердить, какая бы судьба их ни постигла.
+
+Во время гравитационного маневра вокруг планеты 4546B платформа принудительного карантина ударила Aurora энергетическим импульсом по правому борту (справа), что привело к катастрофическому разрушению корпуса и аварийной посадке на поверхность планеты. Все спасательные капсулы правого борта были повреждены, если не полностью уничтожены энергетическим импульсом; большинство спасательных капсул левого борта, которые были запущены (капсулы 1–25), после приземления были либо скомпрометированы, либо иным образом погибли во враждебной экосистеме. Единственным исключением является спасательная капсула 5 , в которой находился Райли Робинсон . Через несколько мгновений после запуска спасательной капсулы 5 Райли услышал, как выстрелила платформа принудительного карантина, и стал свидетелем того, как второй энергетический импульс ударил по уже поврежденному кораблю.
+
+После крушения « Аврора» врезалась в землю, вырывая ее из земли и оставляя небольшие песчаные холмы вокруг корабля. Крушение и последующий взрыв привели к тому, что огромное количество металлических ящиков со списанным грузом и припасами было разбросано в непосредственной близости от корабля, предоставляя полезные материалы, такие как еда и вода , батареи и титан . Девять «Левиафанов-жнецов» патрулируют место крушения.
+
+К тому времени, как игрок просыпается и начинает исследовать территорию, все остальные спасательные капсулы уже уничтожены, а их пассажиры исчезли. Ядро двигателя Авроры взрывается несколько дней спустя, проделывая огромную дыру в носовой части корабля и, как следствие, затапливая место крушения радиацией . Вход без радиационного костюма невозможен, пока не будет отремонтирована комната привода; кроме того, для тщательного исследования многочисленных секций корабля необходимы многочисленные инструменты . Внутреннее пространство Авроры недоступно до момента взрыва.
+
+Aurora расположена на дальнем восточном краю карты, ее нос обращен на север, а корма — на юг. Она видна с поверхности практически из любой точки карты, что делает ее полезным ориентиром, особенно если у игрока нет компаса . Длина корабля составляет около 1280 метров от носа до двигателей. Включая части, обычно скрытые рельефом, его высота составляет около 500 метров.
+
+Из всех членов экипажа на борту « Авроры » единственным выжившим был Райли Робинсон, которому позже удалось сбежать с планеты. Позже «Альтерра» признала потерю корабля и сообщила о спасении его «выживших», но скрыла все подробности о том, как и почему разбился корабль.</div>
+
+    <div class="bioms">Биомы</div>
+    <div style="display:flex;">
+    <div>
+         <div class="otmeli"></div>
+         <div class="otmeli-text">"Безопасные отмели" это первый биом в которой приземляется сам игрок. Вся живность тут сьедобна или безопасна. Этот биом служит как дом для игрока. Это самый безопасный биом в игре. Тут можно найти выступы известняка которые понадобятся в начале игры.</div> 
+    </div>
+    <div>
+         <div class="vodorosli"></div>
+         <div class="vodorosli-text">"Лес водорослей" это доввольно опасный и темный биом. Чем глубже ты заплываешь в этот биом тем мутнее и зеленее становится этот биом. Тут из опасностей есть только хищник "Сталкер", но если не отвлекать сталкера от его игры с металломмом, то он не будет вас трогать.</div>
+    </div>
+    <div>
+    	<div class="plato"></div>
+    	<div class="plato-text">"Травяное плато" это лучший биом для постройки базы. Тут только есть 1 вид левиафана. Тут из хищников есть только "Песчанная акула". Тут есть и выступы песчаника, известняка и если спуститься то можно попасть в биом "Медузных грибов"</div>
+    </div>
+</div>
+</body>
+</html>
